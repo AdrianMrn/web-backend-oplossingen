@@ -5,10 +5,9 @@
 
 	while ($number<=100) {
     	$listNumbers .= $number . ", ";
-    	if ($number % 3 == 0){
-    		if ($number > 40 && $number < 80){
+			//Deel 2 van de opdracht
+    	if ($number % 3 == 0 && $number > 40 && $number < 80){
     			$listNumbers2 .= $number . ", ";
-    		}
     	}
     	$number++;
   	}
@@ -21,7 +20,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>opdracht looping while</title>
+        <title>looping while</title>
     </head>
     <body>
 
